@@ -46,8 +46,10 @@ Follow these steps to set up and run the project locally:
 
 3. Run the application 
     ```bash
-    python main.py
+     pytest test_functions.py
 
 4. Confirm success 
     ```bash
-    Application started successfully
+    test_functions.py .....                                                             [100%] 
+
+===================== 5 passed in 0.03s ================== 
